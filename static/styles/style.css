@@ -14,36 +14,54 @@ body {
     width: 100%;
     height: 98vh;
     position: relative;
-    background: url('../backgroundImage.jpg') no-repeat center/cover;
 }
 
-.showcase::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    background: rgba(0, 0, 0, 0.4);
+
+#myVideo {
+    position: fixed;
+	top: 50%;
+	left: 20%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	transform: translateX(-20%) translateY(-50%);
 }
 
 .showcase h1 {
     font-family: 'Roboto Slab', serif !important;
-    position: relative;
+    position: absolute;
+    top: 15%;
+    left: 40%;
     z-index: 2;
     color: white;
     font-weight: 500;
-    font-size: 7.2rem;
+    font-size: 6.2rem;
     line-height: 1.1;
     text-align: center;
-    padding-top: 9rem;
 }
 
-i {
+.header-icons i {
+    display: inline;
+    padding-left: 1rem;
+}
+
+.fa-linkedin {
+    color: #007bb6;
+    z-index: 1;
+}
+.fa-circle {
+    color: white;
+    z-index: -50;
+}
+
+.fa-angle-down {
     position: absolute;
-    top: 90%;
+    top: 95%;
     left: 50%;
     z-index: 2;
     color: white;
 }
+
+
