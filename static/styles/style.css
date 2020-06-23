@@ -7,53 +7,83 @@
 body {
     font-family: 'Arial', sans-serif;
     -webkit-font-smoothing: antialiased;
-    background: gray;
+    background: #7ec7bb;
 }
 
 .showcase {
     width: 100%;
-    height: 98vh;
+    height: 96.2vh;
     position: relative;
 }
 
-
 #myVideo {
     position: fixed;
-	top: 50%;
-	left: 20%;
-	min-width: 100%;
-	min-height: 100%;
-	width: auto;
-	height: auto;
-	z-index: -100;
-	transform: translateX(-20%) translateY(-50%);
+    top: 50%;
+    left: 20%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-20%) translateY(-60%);
 }
 
 .showcase h1 {
     font-family: 'Roboto Slab', serif !important;
     position: absolute;
-    top: 15%;
-    left: 40%;
+    top: 100;
+    left: 800;
     z-index: 2;
     color: white;
     font-weight: 500;
-    font-size: 6.2rem;
+    font-size: 7.2rem;
     line-height: 1.1;
     text-align: center;
+    border-bottom: 4px solid white;
+    padding-bottom: 3px
 }
 
-.header-icons i {
+.showcase::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* makes it on top of everything */
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.first-name {
+    color: #c38d9e;
+}
+
+.last-name {
+    color: #85cdca;
+}
+
+.header-icons {
+    position: absolute;
+    top: 225;
+    left: 1065;
+}
+
+.header-icons img {
     display: inline;
-    padding-left: 1rem;
 }
 
-.fa-linkedin {
-    color: #007bb6;
-    z-index: 1;
+.header-icons #git-pic {
+    height: 34px;
+    transform: translateX(-38%) translateY(-70%);
 }
-.fa-circle {
-    color: white;
-    z-index: -50;
+
+.header-icons #linkedin-pic {
+    height: 85px;
+}
+
+.header-icons #file-pic {
+    height: 75px;
 }
 
 .fa-angle-down {
@@ -64,4 +94,42 @@ body {
     color: white;
 }
 
+@media(max-width: 1525px) {
+    .showcase h1 {
+        left: 600;
+    }
+    .header-icons {
+        top: 225;
+        left: 865;
+    }
+}
 
+@media(max-width: 1325px) {
+    .showcase h1 {
+        left: 400;
+    }
+    .header-icons {
+        top: 225;
+        left: 665;
+    }
+}
+
+@media(max-width: 1125px) {
+    .showcase h1 {
+        left: 200;
+    }
+    .header-icons {
+        top: 225;
+        left: 465;
+    }
+}
+
+@media(max-width: 925px) {
+    .showcase h1 {
+        left: 50;
+    }
+    .header-icons {
+        top: 225;
+        left: 315;
+    }
+}
