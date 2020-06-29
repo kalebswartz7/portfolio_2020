@@ -1,6 +1,6 @@
-console.log('hi');
-var showcaseAfterHeight = document.getElementById('myVideo').clientHeight;
-document.getElementById('showcase-container').style.height = showcaseAfterHeight;
+var videoContainerHeight = document.getElementById('myVideo').clientHeight;
+document.getElementById('video-container').style.height = videoContainerHeight;
 
-var showcaseAfterWidth = document.getElementById('myVideo').clientWidth;
-document.getElementById('showcase-container').style.width = showcaseAfterWidth;
+var videoContainerWidth = document.getElementById('myVideo').clientWidth;
+document.getElementById('video-container').style.width = videoContainerWidth;
+
