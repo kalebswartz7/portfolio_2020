@@ -1,0 +1,9 @@
+•	Please add block to the top of each file similar to what is in the existing integration/curation code.
+•	Doing both of these imports seems unnecessary “from pyspark.sql import functions as F” “from pyspark.sql.functions import *”
+•	Comment blocks on the top of the two initiate**.py code files are identical but they perform different functions.
+•	Couldn’t most of the initiate**.py code be replaced by an import of the AWSHelper?
+•	Is there any method beyond a hard-coded 60 second sleep after starting the crawler? Maybe a way for it to call-back when its running or something?
+•	It appears connection_options is being redefined inside the loop when only defining the table is necessary.
+•	Need to refactor logging code, appears to use multiple lists rather than an array of dictionaries, making it its own function would make code more readable.
+•	There is a mix of print and logging code, is there a reason not to just make logging also print?
+•	Is passing in the password as a parameter secure or would it be visible from the console?
