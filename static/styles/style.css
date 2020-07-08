@@ -10,11 +10,15 @@
     scroll-behavior: smooth;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 body {
+    position: relative; 
     font-family: 'Roboto Slab', serif !important;
     -webkit-font-smoothing: antialiased;
     background: #FCFFF7;
-    overflow-x: hidden;
 }
 
 .showcase {
