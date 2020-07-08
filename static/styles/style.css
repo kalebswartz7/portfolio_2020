@@ -15,7 +15,7 @@ html, body {
 }
 
 body {
-    position: relative; 
+    position: relative;
     font-family: 'Roboto Slab', serif !important;
     -webkit-font-smoothing: antialiased;
     background: #FCFFF7;
@@ -254,6 +254,10 @@ body {
     justify-self: end !important;
     padding: 0;
     margin: 0;
+}
+
+.project-video:hover {
+    filter: brightness(50%);
 }
 
 .container-3 .info-section {
