@@ -44,6 +44,29 @@ body {
     z-index: -100;
 }
 
+.showcase .header-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 3rem;
+}
+
+.showcase .header-menu a {
+    display: inline;
+    float: left;
+    background: rgba(76, 175, 80, 0.2);
+}
+
+.showcase .header-menu h5 {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.showcase .header-menu h5:hover {
+    font-size: 1.5rem;
+    color: darkblue;
+}
+
 .showcase h1 {
     font-family: 'Roboto Slab', serif !important;
     position: absolute;
@@ -267,6 +290,15 @@ body {
 
 .container-3 .info-section-inner {
     margin-top: 8rem;
+}
+
+footer {
+    padding: 3rem;
+    background-color: var(--green);
+}
+
+footer h4 {
+    color: darkblue;
 }
 
 /* Utility Classes  */
