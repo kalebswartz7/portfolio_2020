@@ -78,7 +78,7 @@ body {
     line-height: 1.1;
     border-bottom: 4px solid white;
     padding-bottom: 3px;
-    transform:translateX(-50%);
+    transform: translateX(-50%);
     text-align: center;
 }
 
@@ -94,7 +94,7 @@ body {
     line-height: 1.1;
     text-align: left;
     padding-bottom: 3px;
-    transform:translateX(-50%);
+    transform: translateX(-50%);
     text-align: center;
 }
 
@@ -121,7 +121,7 @@ body {
     position: absolute;
     top: 225;
     left: 50%;
-    transform:translateX(-50%);
+    transform: translateX(-50%);
 }
 
 .header-icons img {
@@ -151,7 +151,7 @@ body {
     left: 50%;
     z-index: 2;
     color: white;
-    transform:translateX(-50%);
+    transform: translateX(-50%);
 }
 
 .fa-angle-down:hover {
@@ -353,11 +353,9 @@ h3 a {
     .header-icons #git-pic {
         height: 32px;
     }
-    
     .header-icons #linkedin-pic {
         height: 80px;
     }
-    
     .header-icons #file-pic {
         height: 70px;
     }
@@ -376,11 +374,9 @@ h3 a {
     .header-icons #git-pic {
         height: 30px;
     }
-    
     .header-icons #linkedin-pic {
         height: 75px;
     }
-    
     .header-icons #file-pic {
         height: 65px;
     }
@@ -399,11 +395,9 @@ h3 a {
     .header-icons #git-pic {
         height: 28px;
     }
-    
     .header-icons #linkedin-pic {
         height: 70px;
     }
-    
     .header-icons #file-pic {
         height: 60px;
     }
@@ -412,7 +406,7 @@ h3 a {
         top: 0;
         left: 50%;
         padding: 3rem;
-        transform:translateX(-50%);
+        transform: translateX(-50%);
     }
     .showcase .header-menu h5 {
         font-size: 1.3rem;
@@ -432,11 +426,9 @@ h3 a {
     .header-icons #git-pic {
         height: 26px;
     }
-    
     .header-icons #linkedin-pic {
         height: 65px;
     }
-    
     .header-icons #file-pic {
         height: 55px;
     }
@@ -445,7 +437,7 @@ h3 a {
         top: 0;
         left: 50%;
         padding: 3rem;
-        transform:translateX(-50%);
+        transform: translateX(-50%);
     }
     .showcase .header-menu h5 {
         font-size: 1.0rem;
@@ -465,11 +457,9 @@ h3 a {
     .header-icons #git-pic {
         height: 25px;
     }
-    
     .header-icons #linkedin-pic {
         height: 61px;
     }
-    
     .header-icons #file-pic {
         height: 51px;
     }
@@ -478,7 +468,7 @@ h3 a {
         top: 0;
         left: 50%;
         padding: 3rem;
-        transform:translateX(-50%);
+        transform: translateX(-50%);
     }
     .showcase .header-menu h5 {
         font-size: 0.8rem;
@@ -498,11 +488,9 @@ h3 a {
     .header-icons #git-pic {
         height: 24px;
     }
-    
     .header-icons #linkedin-pic {
         height: 58px;
     }
-    
     .header-icons #file-pic {
         height: 48px;
     }
@@ -511,7 +499,7 @@ h3 a {
         top: 0;
         left: 50%;
         padding: 3rem;
-        transform:translateX(-50%);
+        transform: translateX(-50%);
     }
     .showcase .header-menu h5 {
         font-size: 0.7rem;
@@ -531,11 +519,9 @@ h3 a {
     .header-icons #git-pic {
         height: 24px;
     }
-    
     .header-icons #linkedin-pic {
         height: 58px;
     }
-    
     .header-icons #file-pic {
         height: 48px;
     }
@@ -543,9 +529,9 @@ h3 a {
         position: absolute;
         top: 0;
         padding: 3rem;
-        width: 300px;
+        width: 350px;
         left: 50%;
-        transform:translateX(-50%);
+        transform: translateX(-50%);
     }
     .header-icons {
         position: absolute;
