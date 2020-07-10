@@ -63,7 +63,6 @@ body {
 }
 
 .showcase .header-menu h5:hover {
-    font-size: 1.5rem;
     color: darkblue;
 }
 
@@ -71,29 +70,32 @@ body {
     font-family: 'Roboto Slab', serif !important;
     position: absolute;
     top: 100;
-    left: 800;
+    left: 50%;
     z-index: 2;
     color: white;
     font-weight: 500;
     font-size: 7.2rem;
     line-height: 1.1;
-    text-align: center;
     border-bottom: 4px solid white;
-    padding-bottom: 3px
+    padding-bottom: 3px;
+    transform:translateX(-50%);
+    text-align: center;
 }
 
 .showcase h2 {
     font-family: 'Roboto Slab', serif !important;
     position: absolute;
     top: 500;
-    left: 800;
+    left: 50%;
     z-index: 2;
     color: var(--green);
     font-weight: 500;
     font-size: 3.2rem;
     line-height: 1.1;
     text-align: left;
-    padding-bottom: 3px
+    padding-bottom: 3px;
+    transform:translateX(-50%);
+    text-align: center;
 }
 
 .showcase::after {
@@ -118,7 +120,8 @@ body {
 .header-icons {
     position: absolute;
     top: 225;
-    left: 1065;
+    left: 50%;
+    transform:translateX(-50%);
 }
 
 .header-icons img {
@@ -148,6 +151,7 @@ body {
     left: 50%;
     z-index: 2;
     color: white;
+    transform:translateX(-50%);
 }
 
 .fa-angle-down:hover {
@@ -337,41 +341,215 @@ h3 a {
 }
 
 @media(max-width: 1525px) {
-    .showcase h1, .showcase h2 {
-        left: 600;
+    .showcase h1 {
+        font-size: 6.2rem;
+    }
+    .showcase h2 {
+        font-size: 2.8rem;
     }
     .header-icons {
-        top: 225;
-        left: 865;
+        top: 215;
+    }
+    .header-icons #git-pic {
+        height: 32px;
+    }
+    
+    .header-icons #linkedin-pic {
+        height: 80px;
+    }
+    
+    .header-icons #file-pic {
+        height: 70px;
     }
 }
 
-@media(max-width: 1325px) {
-    .showcase h1, .showcase h2 {
-        left: 400;
+@media(max-width: 1275px) {
+    .showcase h1 {
+        font-size: 5.2rem;
+    }
+    .showcase h2 {
+        font-size: 2.2rem;
     }
     .header-icons {
-        top: 225;
-        left: 665;
+        top: 200;
+    }
+    .header-icons #git-pic {
+        height: 30px;
+    }
+    
+    .header-icons #linkedin-pic {
+        height: 75px;
+    }
+    
+    .header-icons #file-pic {
+        height: 65px;
     }
 }
 
-@media(max-width: 1125px) {
-    .showcase h1, .showcase h2 {
-        left: 200;
+@media(max-width: 1060px) {
+    .showcase h1 {
+        font-size: 4.6rem;
+    }
+    .showcase h2 {
+        font-size: 1.8rem;
     }
     .header-icons {
-        top: 225;
-        left: 465;
+        top: 182;
+    }
+    .header-icons #git-pic {
+        height: 28px;
+    }
+    
+    .header-icons #linkedin-pic {
+        height: 70px;
+    }
+    
+    .header-icons #file-pic {
+        height: 60px;
+    }
+    .showcase .header-menu {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        padding: 3rem;
+        transform:translateX(-50%);
+    }
+    .showcase .header-menu h5 {
+        font-size: 1.3rem;
     }
 }
 
-@media(max-width: 925px) {
-    .showcase h1, .showcase h2 {
-        left: 50;
+@media(max-width: 950px) {
+    .showcase h1 {
+        font-size: 3.8rem;
+    }
+    .showcase h2 {
+        font-size: 1.6rem;
     }
     .header-icons {
-        top: 225;
-        left: 315;
+        top: 172;
+    }
+    .header-icons #git-pic {
+        height: 26px;
+    }
+    
+    .header-icons #linkedin-pic {
+        height: 65px;
+    }
+    
+    .header-icons #file-pic {
+        height: 55px;
+    }
+    .showcase .header-menu {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        padding: 3rem;
+        transform:translateX(-50%);
+    }
+    .showcase .header-menu h5 {
+        font-size: 1.0rem;
+    }
+}
+
+@media(max-width: 800px) {
+    .showcase h1 {
+        font-size: 3.3rem;
+    }
+    .showcase h2 {
+        font-size: 1.2rem;
+    }
+    .header-icons {
+        top: 165;
+    }
+    .header-icons #git-pic {
+        height: 25px;
+    }
+    
+    .header-icons #linkedin-pic {
+        height: 61px;
+    }
+    
+    .header-icons #file-pic {
+        height: 51px;
+    }
+    .showcase .header-menu {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        padding: 3rem;
+        transform:translateX(-50%);
+    }
+    .showcase .header-menu h5 {
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width: 700px) {
+    .showcase h1 {
+        font-size: 3.0rem
+    }
+    .showcase h2 {
+        font-size: 1.3rem;
+    }
+    .header-icons {
+        top: 160;
+    }
+    .header-icons #git-pic {
+        height: 24px;
+    }
+    
+    .header-icons #linkedin-pic {
+        height: 58px;
+    }
+    
+    .header-icons #file-pic {
+        height: 48px;
+    }
+    .showcase .header-menu {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        padding: 3rem;
+        transform:translateX(-50%);
+    }
+    .showcase .header-menu h5 {
+        font-size: 0.7rem;
+    }
+}
+
+@media(max-width: 600px) {
+    .showcase h1 {
+        font-size: 3.0rem
+    }
+    .showcase h2 {
+        font-size: 1.0rem;
+    }
+    .header-icons {
+        top: 160;
+    }
+    .header-icons #git-pic {
+        height: 24px;
+    }
+    
+    .header-icons #linkedin-pic {
+        height: 58px;
+    }
+    
+    .header-icons #file-pic {
+        height: 48px;
+    }
+    .showcase .header-menu {
+        position: absolute;
+        top: 0;
+        padding: 3rem;
+        width: 300px;
+        left: 50%;
+        transform:translateX(-50%);
+    }
+    .header-icons {
+        position: absolute;
+        top: 200;
+        left: 52%;
     }
 }
