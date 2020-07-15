@@ -299,10 +299,17 @@ body {
 footer {
     padding: 3rem;
     background-color: var(--green);
+    display: grid;
+    grid-template-columns: 12fr 1fr;
 }
 
 footer h4 {
     color: darkblue;
+}
+
+#campfire {
+    height: 100px;
+    width: auto;
 }
 
 /* Utility Classes  */
