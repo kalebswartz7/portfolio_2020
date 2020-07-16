@@ -187,7 +187,7 @@ body {
     color: var(--red);
 }
 
-.info-section img, .info-section video {
+.info-section img, .info-section a, .info-section video {
     width: auto;
     height: 125px;
     justify-self: center;
@@ -283,7 +283,15 @@ body {
     margin: 0;
 }
 
-.project-video:hover {
+.overlay {
+    position: absolute;
+    transform: translate(-400%, 150%);
+    height: 75px !important;
+    width: auto;
+    opacity: 0.7;
+}
+
+.overlay:hover {
     filter: brightness(50%);
 }
 
@@ -387,6 +395,12 @@ h3 a {
     .header-icons #file-pic {
         height: 65px;
     }
+    .section-1 h1 {
+        font-size: 2.2rem;
+    }
+    .section-1 h2 {
+        font-size: 1.4rem;
+    }
 }
 
 @media(max-width: 1060px) {
@@ -448,6 +462,12 @@ h3 a {
     }
     .showcase .header-menu h5 {
         font-size: 1.0rem;
+    }
+    .section-1 h1 {
+        font-size: 2rem;
+    }
+    .section-1 h2 {
+        font-size: 1.3rem;
     }
 }
 
@@ -511,6 +531,12 @@ h3 a {
     .showcase .header-menu h5 {
         font-size: 0.7rem;
     }
+    .section-1 h1 {
+        font-size: 1.8rem;
+    }
+    .section-1 h2 {
+        font-size: 1.2rem;
+    }
 }
 
 @media(max-width: 600px) {
@@ -544,5 +570,11 @@ h3 a {
         position: absolute;
         top: 200;
         left: 52%;
+    }
+    .section-1 h1 {
+        font-size: 1.6rem;
+    }
+    .section-1 h2 {
+        font-size: 1.1rem;
     }
 }
