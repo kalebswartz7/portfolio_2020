@@ -401,6 +401,34 @@ h3 a {
     .section-1 h2 {
         font-size: 1.4rem;
     }
+    .info-section {
+        display: block;
+        text-align: left;
+    }
+    #education-h1, #experience-h1, #projects-h1 {
+        text-align: center;
+        font-size: 2.2rem;
+    }
+    .info-section-text h3 {
+        font-size: 1rem;
+    }
+    .info-section img:not(.overlay) {
+        display: block;
+        margin: auto;
+        height: 125px;
+    }
+    .project-video {
+        width: 400px !important;
+    }
+    .info-section li {
+        font-size: 0.8rem;
+    }
+    .info-section ul {
+        padding-bottom: 3rem;
+    }
+    .thumbnail a {
+        margin: auto !important;
+    }
 }
 
 @media(max-width: 1060px) {
@@ -498,25 +526,6 @@ h3 a {
         transform: translateX(-50%);
     }
     .showcase .header-menu h5 {
-        font-size: 0.8rem;
-    }
-    .info-section {
-        display: block;
-        text-align: left;
-    }
-    #education-h1 {
-        text-align: center;
-        font-size: 2.2rem;
-    }
-    .info-section-text h3 {
-        font-size: 1rem;
-    }
-    .info-section img {
-        display: block;
-        margin: auto;
-        height: 85px;
-    }
-    .info-section li {
         font-size: 0.8rem;
     }
 }
