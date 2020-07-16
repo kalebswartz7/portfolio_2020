@@ -500,6 +500,17 @@ h3 a {
     .showcase .header-menu h5 {
         font-size: 0.8rem;
     }
+    .info-section {
+        display: block;
+        text-align: left;
+    }
+    #education-h1 {
+        text-align: center;
+    }
+    .info-section img {
+        display: block;
+        margin: auto;
+    }
 }
 
 @media(max-width: 700px) {
