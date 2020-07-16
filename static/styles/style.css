@@ -506,10 +506,18 @@ h3 a {
     }
     #education-h1 {
         text-align: center;
+        font-size: 2.2rem;
+    }
+    .info-section-text h3 {
+        font-size: 1rem;
     }
     .info-section img {
         display: block;
         margin: auto;
+        height: 85px;
+    }
+    .info-section li {
+        font-size: 0.8rem;
     }
 }
 
