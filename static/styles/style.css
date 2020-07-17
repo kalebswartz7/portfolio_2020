@@ -307,8 +307,6 @@ body {
 footer {
     padding: 3rem;
     background-color: var(--green);
-    display: grid;
-    grid-template-columns: 12fr 1fr;
 }
 
 footer h4 {
@@ -412,16 +410,25 @@ h3 a {
     .info-section-text h3 {
         font-size: 1rem;
     }
+    .info-section {
+        position: relative;
+    }
     .info-section img:not(.overlay) {
         display: block;
         margin: auto;
         height: 125px;
     }
+    .overlay {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
     .project-video {
         width: 400px !important;
     }
     .info-section li {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     .info-section ul {
         padding-bottom: 3rem;
@@ -528,6 +535,15 @@ h3 a {
     .showcase .header-menu h5 {
         font-size: 0.8rem;
     }
+    .info-section img:not(.overlay) {
+        height: 100px;
+    }
+    .project-video {
+        width: 300px !important;
+    }
+    .info-section li {
+        font-size: 0.8rem;
+    }
 }
 
 @media(max-width: 700px) {
@@ -604,5 +620,8 @@ h3 a {
     }
     .section-1 h2 {
         font-size: 1.1rem;
+    }
+    .info-section img:not(.overlay) {
+        height: 80px;
     }
 }
