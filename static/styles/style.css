@@ -614,7 +614,7 @@ h3 a {
         font-size: 1.0rem;
     }
     .header-icons {
-        top: 29%;
+        top: 27%;
     }
     .header-icons #git-pic {
         height: 24px;
@@ -657,7 +657,7 @@ h3 a {
 
 @media(max-height: 800px) {
     .header-icons {
-        top: 33%;
+        top: 30%;
     }
 }
 
