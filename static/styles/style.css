@@ -446,9 +446,6 @@ h3 a {
     .info-section ul {
         padding-bottom: 3rem;
     }
-    .thumbnail a {
-        margin: auto !important;
-    }
 }
 
 @media(max-width: 1060px) {
