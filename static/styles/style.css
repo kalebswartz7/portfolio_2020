@@ -425,17 +425,8 @@ h3 a {
     }
     .overlay {
         position: absolute;
-        left: 52%;
+        left: 51%;
         transform: translate(-50%, -50%);
-    }
-    #overlay-1 {
-        top: 85%;
-    }
-    #overlay-2, #overlay-3, #overlay-5 {
-        top: 80%;
-    }
-    #overlay-4 {
-        top: 83%;
     }
     .project-video {
         width: 400px !important;
@@ -445,6 +436,18 @@ h3 a {
     }
     .info-section ul {
         padding-bottom: 3rem;
+    }
+    #overlay-1 {
+        top: 80%;
+    }
+    #overlay-2 {
+        top: 78%;
+    }
+    #overlay-3, #overlay-5 {
+        top: 76%;
+    }
+    #overlay-4 {
+        top: 78%;
     }
 }
 
@@ -553,6 +556,15 @@ h3 a {
     }
     .info-section li {
         font-size: 0.8rem;
+    }
+    #overlay-1 {
+        top: 85%;
+    }
+    #overlay-2, #overlay-3, #overlay-5 {
+        top: 80%;
+    }
+    #overlay-4 {
+        top: 83%;
     }
 }
 
