@@ -70,7 +70,7 @@ body {
 .showcase h1 {
     font-family: 'Roboto Slab', serif !important;
     position: absolute;
-    top: 100;
+    top: 10%;
     left: 50%;
     z-index: 2;
     color: white;
@@ -86,7 +86,7 @@ body {
 .showcase h2 {
     font-family: 'Roboto Slab', serif !important;
     position: absolute;
-    top: 500;
+    top: 60%;
     left: 50%;
     z-index: 2;
     color: var(--green);
@@ -120,7 +120,7 @@ body {
 
 .header-icons {
     position: absolute;
-    top: 225;
+    top: 25%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -362,7 +362,7 @@ h3 a {
         font-size: 2.8rem;
     }
     .header-icons {
-        top: 215;
+        top: 22%;
     }
     .header-icons #git-pic {
         height: 32px;
@@ -383,7 +383,7 @@ h3 a {
         font-size: 2.2rem;
     }
     .header-icons {
-        top: 200;
+        top: 21%;
     }
     .header-icons #git-pic {
         height: 30px;
@@ -421,7 +421,7 @@ h3 a {
     }
     .overlay {
         position: absolute;
-        left: 50%;
+        left: 52%;
         transform: translate(-50%, -50%);
     }
     #overlay-1 {
@@ -455,7 +455,7 @@ h3 a {
         font-size: 1.8rem;
     }
     .header-icons {
-        top: 182;
+        top: 20%;
     }
     .header-icons #git-pic {
         height: 28px;
@@ -486,7 +486,7 @@ h3 a {
         font-size: 1.6rem;
     }
     .header-icons {
-        top: 172;
+        top: 17%;
     }
     .header-icons #git-pic {
         height: 26px;
@@ -523,7 +523,7 @@ h3 a {
         font-size: 1.2rem;
     }
     .header-icons {
-        top: 165;
+        top: 16%;
     }
     .header-icons #git-pic {
         height: 25px;
@@ -563,7 +563,7 @@ h3 a {
         font-size: 1.3rem;
     }
     .header-icons {
-        top: 160;
+        top: 15%;
     }
     .header-icons #git-pic {
         height: 24px;
@@ -600,7 +600,7 @@ h3 a {
         font-size: 1.0rem;
     }
     .header-icons {
-        top: 160;
+        top: 21%;
     }
     .header-icons #git-pic {
         height: 24px;
