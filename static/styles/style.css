@@ -604,7 +604,7 @@ h3 a {
         font-size: 1.0rem;
     }
     .header-icons {
-        top: 26%;
+        top: 29%;
     }
     .header-icons #git-pic {
         height: 24px;
@@ -636,5 +636,11 @@ h3 a {
     }
     .info-section img:not(.overlay) {
         height: 80px;
+    }
+}
+
+@media(max-width: 400px) {
+    .header-icons {
+        top: 32%;
     }
 }
