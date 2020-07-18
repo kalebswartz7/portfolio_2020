@@ -654,3 +654,27 @@ h3 a {
         top: 32%;
     }
 }
+
+@media(max-height: 800px) {
+    .header-icons {
+        top: 33%;
+    }
+}
+
+@media(max-height: 600px) {
+    .header-icons {
+        top: 36%;
+    }
+}
+
+@media(max-height: 400px) {
+    .header-icons {
+        top: 40%;
+    }
+}
+
+@media(max-height: 300px) {
+    .header-icons {
+        top: 44%;
+    }
+}
