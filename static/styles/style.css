@@ -291,6 +291,18 @@ body {
   margin: 0;
 }
 
+.hover-darken:hover {
+  opacity: 0.9;
+}
+
+.project-video-static {
+  width: 525px !important;
+  height: auto !important;
+  justify-self: end !important;
+  padding: 0;
+  margin: 0;
+}
+
 .overlay {
   position: absolute;
   transform: translate(-400%, 150%);
