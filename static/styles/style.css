@@ -377,6 +377,15 @@ h3 a {
   color: black !important;
 }
 
+.live-overlay {
+  position: absolute;
+  top: 150px;
+  left: 170px;
+  z-index: 5;
+  color: white;
+  font-size: 2rem;
+}
+
 @media (max-width: 1525px) {
   .showcase h1 {
     font-size: 6.2rem;
